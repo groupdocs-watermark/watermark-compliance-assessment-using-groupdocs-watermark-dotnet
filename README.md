@@ -232,7 +232,7 @@ using (Watermarker watermarker = new Watermarker(filePath))
 
 By updating the text and style in‑place, the sample shows how to keep document branding consistent without recreating the whole file.
 
-![Text replacement result — the old watermark text is replaced with new text, font, and color](text-replaced-example.png)
+![Text replacement result — the old watermark text is replaced with new text, font, and color](images/text-replaced-example.png)
 
 ### Selectively removes watermarks by combined text and formatting criteria.
 
@@ -262,7 +262,7 @@ using (Watermarker watermarker = new Watermarker(filePath))
 
 The code demonstrates fine‑grained control, ensuring that only non‑compliant or outdated marks are stripped away.
 
-![Watermark removal result — targeted watermarks are removed while other content remains intact](watermarks-removed-example.png)
+![Watermark removal result — targeted watermarks are removed while other content remains intact](images/watermarks-removed-example.png)
 
 ### Adds a hidden tracking watermark for leak detection.
 
